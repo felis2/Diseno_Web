@@ -1,0 +1,75 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sixtyfour&display=swap')
+</style>
+*{
+    // <uniquifier>: Use a uniquifier for the class name
+
+.sixtyfour-<uniquifier> {
+  font-family: "Sixtyfour", sans-serif;
+  
+}
+
+}
+h1{
+    color:aqua;
+    background-color: black;
+    text-align: center;
+    font-size: 3em;
+    font-family: cursive;
+    letter-spacing: 0.5em;
+    word-spacing: 1em;
+    
+}
+
+header{
+    background-color: aqua;
+    text-align: center;
+    height: 30vh;
+}
+
+body{
+    background-color: green;
+    text-align: center;
+    height: 60vh;
+}
+
+section{
+    background-color: rgba(0, 140, 255, 0.658);
+    text-align: center;
+    width: 70%;
+    height: 30vh;
+}
+
+aside{
+    background-color: blueviolet;
+    text-align: center;
+    width: 30%;
+    height: 30vh;
+}
+
+footer{
+    background-color: yellow;
+    text-align: center;
+    height: 10vh;
+   
+}
+
+/* uso de flexbox */
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+main{
+    display: flex;
+}
